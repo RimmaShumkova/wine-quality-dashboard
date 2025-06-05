@@ -26,7 +26,7 @@ for model_name, model_path in models.items():
     except FileNotFoundError:
         st.warning(f"Файл модели {model_name} не найден ({model_path}). Эта модель будет недоступна.")
     except Exception as e:
-        st.warning(f"Ошибка при загрузке модели {model_name}: {e}. Эта модель будет недоступна.")
+        st.warning(f"Ошибка при загрузке модели {model_name}: {e}. Эта модель будет недоступна!")
 
 if not loaded_models:
     st.error("Ни одна из моделей не загружена. Пожалуйста, убедитесь, что хотя бы одна модель доступна.")
