@@ -3,3 +3,4 @@ scikit-learn
 pandas
 matplotlib
 seaborn
+catboost==1.2.2
