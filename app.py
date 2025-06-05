@@ -39,7 +39,7 @@ if page == "Информация об авторе":
     st.title("Информация об авторе")
     st.header("ФИО: Шумкова Римма Сергеевна")
     st.subheader("Номер учебной группы: ФИТ-231")
-    st.image("C:\ML\wine-quality-dashboard\images\photo.jpeg", 
+    st.image("images\photo.jpeg", 
              width=300)
 
 if page == "Информация о наборе данных":
